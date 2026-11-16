@@ -44,19 +44,3 @@ The workbook is not changed. Future ScholarRx questions need a mapping update.
 Designed for modern Anki Desktop (Qt6). It is not a mobile add-on. The lookup logic
 is automatically tested; installation and dialog behavior still require a live
 Anki smoke test. No affiliation with ScholarRx, AnKing, or AnkiHub is claimed.
-
-## Development
-
-The add-on uses Python's standard library and Anki's built-in APIs only.
-To regenerate the mapping, use Python with `openpyxl` installed:
-
-```
-python tools/convert_mapping.py "D:\Documents\ScholarRx_QID_to_AnKing.xlsx" scholarrx/mapping.json
-python -m unittest discover -s tests -v
-python tools/build.py
-```
-
-Manual smoke test: cancel the dialog; try empty input; search `1171.21,`; search
-`1171.21 1175.21`; search `1171.21, 99999999.99`; then try only the unknown ID.
-Verify mixed input reports the unknown ID and still opens the valid results,
-and that no notes or review schedules were changed.
