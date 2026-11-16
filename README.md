@@ -7,6 +7,9 @@ It does not import cards, change scheduling, unsuspend cards, or contact a websi
 **Question IDs only map for ScholarRx's "Step 1 Qmax High-Yield Topics".**
 Question IDs from other ScholarRx question banks or sections are not supported.
 
+**Mapped cards are only supported in the "AnKing Step Deck" dated November 15,
+2026 (11/15/2026).** Other decks or versions are not supported by this mapping.
+
 ## Install and use
 
 1. In Anki Desktop, open **Tools → Add-ons → Install from file…**.
