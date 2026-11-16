@@ -4,6 +4,9 @@ An Anki Desktop add-on that turns ScholarRx question IDs into a search for exist
 AnKing notes. It opens Browse; users decide what to do with the resulting cards.
 It does not import cards, change scheduling, unsuspend cards, or contact a website.
 
+**Question IDs only map for ScholarRx's "Step 1 Qmax High-Yield Topics".**
+Question IDs from other ScholarRx question banks or sections are not supported.
+
 ## Install and use
 
 1. In Anki Desktop, open **Tools → Add-ons → Install from file…**.
