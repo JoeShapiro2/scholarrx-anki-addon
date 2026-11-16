@@ -12,7 +12,7 @@ Question IDs from other ScholarRx question banks or sections are not supported.
 ## Install and use
 
 1. In Anki Desktop, open **Tools → Add-ons → Install from file…**.
-2. Select `dist/scholarrx-question-lookup-0.1.0.ankiaddon` and restart Anki.
+2. Select `dist/scholarrx-question-lookup-1.0.0.ankiaddon` and restart Anki.
 3. Choose **Tools → Find cards from ScholarRx**.
 4. Enter full question IDs, for example `1171.21, 1175.21,` and click OK.
 
